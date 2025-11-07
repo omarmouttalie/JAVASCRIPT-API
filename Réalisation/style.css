@@ -1,0 +1,226 @@
+body {
+    height: 1000px;
+    margin-top: 150px;
+    background-color: #06457F;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: Raleway, sans-serif;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #B3CED6;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.5em;
+    border-bottom: #D3045D solid 2px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #ffffff;
+    transform: translateY(-4%);
+    color: black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.102);
+}
+
+.main-content {
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    margin-top: 90px;
+}
+
+.heading {
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+.CTA-btn {
+    padding: 15px 25px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0474C4;
+    border: none;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.CTA-btn:hover {
+    color: #034f84;
+    background-color: white;
+    transform: translateY(-3%);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.124);
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#searchInput {
+    height: 45px;
+    width: 350px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #deebff;
+    margin-right: 12px;
+    padding: 0 7px;
+
+}
+
+#searchInput::placeholder {
+    color: rgb(43, 28, 28);
+}
+
+#search-btn {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: none;
+    color: #ffffff;
+    background-color: #0d2d4b;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+
+#search-btn:hover {
+    color: #0d2d4b;
+    background-color: #ffffff;
+}
+
+.productName {
+    color: white;
+    font-weight: bold;
+    width: 200px;
+}
+
+.productPrice {
+    color: rgb(255, 199, 199);
+    font-weight: bold;
+    font-family: Quicksand;
+}
+
+.productImg {
+    border-radius: 10px;
+    width: 90%;
+}
+
+#products-catalogue{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 15px; 
+    width: 80%;
+    margin: 50px auto;
+}
+
+.products {
+    cursor: pointer;
+    transition: all ease 0.25s;
+}
+
+.products:hover {
+    transform: translateY(-4%);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.209);
+}
+
+.goToHomeBtn {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all ease 0.25s;
+    cursor: pointer;
+}
+
+.goToHomeBtn:hover {
+    color: black;
+    background-color: white;
+}
+
+.goToHome-div {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 230px;
+    background-color: rgb(49, 62, 103);
+    position: absolute;
+    right: 0;
+    left: 0;
+    
+}
+
+.footer-logo {
+    width: 100px;
+    height: 100px;
+    opacity: 0.8;
+}
+
+.footer-item {
+    color : white; 
+    font-size: 1rem;
+}
+
+#categoryFilter {
+    padding: 12px 5px;
+    outline: none;
+    background-color: #6b9bc8;
+    font-size: 1em;
+    border: none;
+    margin-left: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}

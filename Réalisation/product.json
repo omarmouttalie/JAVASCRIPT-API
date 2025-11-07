@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Blue off-white T-shirt",
+    "price": 133.99,
+    "category": "shirts",
+    "image": "img1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "TOM FORD double-breasted shearling peacoat",
+    "price": 782.55,
+    "category": "coats",
+    "image": "product-images/img2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Moncler Grenoble patterned zip jacket",
+    "price": 549.99,
+    "category": "jackets",
+    "image": "product-images/img3.webp"
+  },
+  {
+    "id": 4,
+    "name": "Zegna pleated wool trousers",
+    "price": 790,
+    "category": "pants",
+    "image": "product-images/img4.webp"
+  },
+  {
+    "id": 5,
+    "name": "FRANCO FEDELE lace-up leather derby shoes",
+    "price": 230.50,
+    "category": "shoes",
+    "image": "product-images/img5.webp"
+  },
+  {
+    "id": 6,
+    "name": "Casablanca gradient-effect zip sweatshirt",
+    "price": 913,
+    "category": "jackets",
+    "image": "product-images/img6.webp"
+  },
+  {
+    "id": 7,
+    "name": "Who Decides War distressed jeans",
+    "price": 412,
+    "category": "pants",
+    "image": "product-images/img7.webp"
+  },
+  {
+    "id": 8,
+    "name": "Comme Des Garçons Shirt back-logo cotton T-shirt",
+    "price": 62,
+    "category": "shirts",
+    "image": "product-images/img8.webp"
+  },
+  {
+    "id": 9,
+    "name": "Jacquemus La Veste De-Nîmes Canevas jacket",
+    "price": 730,
+    "category": "jackets",
+    "image": "product-images/img9.webp"
+  },
+  {
+    "id": 10,
+    "name": "AMIRI dragon businnes as usual shirt",
+    "price": 691,
+    "category": "shirts",
+    "image": "product-images/img10.webp"
+  },
+  {
+    "id": 11,
+    "name": "Polo Ralph Lauren shirt",
+    "price": 211,
+    "category": "shirts",
+    "image": "product-images/img11.webp"
+  },
+  {
+    "id": 12,
+    "name": "Acne Studios leather loafers",
+    "price": 723,
+    "category": "shoes",
+    "image": "product-images/img12.webp"
+  },
+  {
+    "id": 13,
+    "name": "Boggi Milano double-breasted coat",
+    "price": 1126,
+    "category": "coats",
+    "image": "product-images/img13.webp"
+  },
+  {
+    "id": 14,
+    "name": "Saint Laurent classic-five pockets logo-patch jeans",
+    "price": 867,
+    "category": "pants",
+    "image": "product-images/img14.webp"
+  },
+  {
+    "id": 15,
+    "name": "Mackage SKAI-SLB coat",
+    "price": 1330,
+    "category": "coats",
+    "image": "product-images/img15.webp"
+  },
+  {
+    "id": 16,
+    "name": "lemo's leather jacket",
+    "price": 980,
+    "category": "jackets",
+    "image": "product-images/img16.webp"
+  },
+  {
+    "id": 17,
+    "name": "DSQUARED2 Skater jeans",
+    "price": 490,
+    "category": "pants",
+    "image": "product-images/img17.webp"
+  },
+  {
+    "id": 18,
+    "name": "Canali single-breasted suit (three pieces)",
+    "price": 1120,
+    "category": "suits",
+    "image": "product-images/img18.webp"
+  },
+  {
+    "id": 19,
+    "name": "Monkai cutton shirt blue",
+    "price": 431,
+    "category": "shirts",
+    "image": "product-images/img19.webp"
+  },
+  {
+    "id": 20,
+    "name": "Moose Knuckles removable-hood quilted coat",
+    "price": 1249.99,
+    "category": "coats",
+    "image": "product-images/img20.webp"
+  }
+]
