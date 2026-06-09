@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Interface pilotée par état</title>
+  <style>
+    .produit { margin-bottom: 10px; }
+    .panier { margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Boutique</h1>
+
+  <div class="produit">
+    <span>PC Portable – 900 €</span>
+    <button data-nom="PC Portable" data-prix="900">Ajouter au panier</button>
+  </div>
+  <div class="produit">
+    <span>Souris – 25 €</span>
+    <button data-nom="Souris" data-prix="25">Ajouter au panier</button>
+  </div>
+
+  <div class="panier">
+    <h2>Panier</h2>
+    <ul id="liste-panier"></ul>
+    <p id="total">Total : 0 €</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
